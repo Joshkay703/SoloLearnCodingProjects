@@ -1,0 +1,4 @@
+x = int(input()) 
+list = [i for i in range(x) if i % 5 == 0 and i % 3 == 0]
+
+print(list)
