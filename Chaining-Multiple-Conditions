@@ -1,0 +1,3 @@
+type = input()
+if type == "Amex" or type == "Visa":
+    print("accepted")
