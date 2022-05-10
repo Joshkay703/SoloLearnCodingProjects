@@ -1,0 +1,6 @@
+from itertools import permutations
+
+items = ['x', 'y']
+
+result = list(permutations(items))
+print(result)
