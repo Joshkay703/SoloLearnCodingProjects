@@ -1,0 +1,7 @@
+txt = input()
+
+def gen_list_str(txt):
+        for word in txt.split(' '):
+                yield word
+
+print(list(gen_list_str(txt)))
