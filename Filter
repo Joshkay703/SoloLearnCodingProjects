@@ -1,0 +1,4 @@
+names = ["David", "John", "Annabelle", "Johnathan", "Veronica"]
+
+result = list(filter(lambda x:len(x)>5,names))
+print(result)
